@@ -1,0 +1,71 @@
+.navbar-padding-bottom {
+    padding-bottom: 6rem;
+}
+
+.menu-topo-navegacao {
+    padding: 10px 20px;
+    z-index: 999;
+}
+.menu-topo-navegacao .titulo {
+    font-size: 25px;
+    /* ALTERAR COR DO GRADIENTE DO TITULO DO MENU */
+    background-image: linear-gradient(to right, #f46b45, #eea849);
+    background-image: -webkit-linear-gradient(to right, #f46b45, #eea849);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.animacao-texto {
+    background-size: 400% 400%;
+    -webkit-animation: animacaoTexto 5s ease infinite;
+    -moz-animation: animacaoTexto 5s ease infinite;
+    animation: animacaoTexto 5s ease infinite;
+}
+
+@keyframes animacaoTexto {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.menu-topo-navegacao .logotipo {
+    width: 60px;
+}
+
+.menu-topo-navegacao .login {
+    color: #6c757d ;
+    font-size: 15px;
+    border: 1px solid #6c757d ;
+    padding: 5px 20px;
+    border-radius: 1000px;
+}
+.menu-topo-navegacao .login:hover {
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #6c757d;
+    padding: 5px 20px;
+    border-radius: 1000px;
+    background: #6c757d;
+}
+
+@include media-breakpoint-up(xs) {
+    .menu-topo-navegacao {
+        padding: 10px 10px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .menu-topo-navegacao {
+        padding: 10px 20px;
+    }
+}
+
+.menu-bg {
+    background: #f8fafc;
+}
