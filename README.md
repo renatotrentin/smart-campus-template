@@ -9,4 +9,4 @@ Como utilizar:
  - Colocar arquivos de imagem na pasta ```images``` na raiz do projeto
  - O menu e o título tem seus arquivos com este mesmo nome, os conteúdos relacionados a eles podem ser alterados lá
  - Novos conteúdos adicionados devem ser incluídos na pasta ```src``` e chamados dentro do arquivo ```index.php```. (Todo o seu conteúdo desse ser mantido dentro da pasta ```src```, com exceção dos arquivos js, css e imagens)
- - As cores padrões podem ser alteradas nos arquivos ```css/base.css```, ```css/menu.css``` e ```css/spinner.css```. (Nesses arquivos recomenda-se alterar apenas características relacionados às cores)
+ - As cores padrões podem ser alteradas nos arquivos ```css/base.css```, ```css/menu.css``` e ```css/spinner.css```. (Nesses arquivos recomenda-se alterar apenas características relacionados às cores). Para o uso de gradientes recomenda-se a utilização dos padrões disponíveis em https://uigradients.com/
