@@ -8,5 +8,5 @@ Como utilizar:
  - Colocar arquivos JS na pasta ```js``` na raiz do projeto e chamar o JS criado dentro do arquivo ```baseFinal.php```
  - Colocar arquivos de imagem na pasta ```images``` na raiz do projeto
  - O menu e o título tem seus arquivos com este mesmo nome, os conteúdos relacionados a eles podem ser alterados lá
- - Novos conteúdos adicionados devem ser incluídos na pasta ```src``` e chamados dentro do arquivo ```index.php```. (Todo o seu conteúdo desse ser mantido dentro da pasta ```src```, com exceção dos arquivos js, css e imagens)
+ - Novos conteúdos adicionados devem ser incluídos na pasta ```src``` (que deve ser criada na raíz do projeto) e chamados dentro do arquivo ```index.php```. (Todo o seu conteúdo deve ser mantido dentro da pasta ```src```, com exceção dos arquivos js, css e imagens)
  - As cores padrões podem ser alteradas nos arquivos ```css/base.css```, ```css/menu.css``` e ```css/spinner.css```. (Nesses arquivos recomenda-se alterar apenas características relacionados às cores). Para o uso de gradientes recomenda-se a utilização dos padrões disponíveis em https://uigradients.com/
